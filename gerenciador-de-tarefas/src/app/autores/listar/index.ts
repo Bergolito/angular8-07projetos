@@ -1,0 +1,1 @@
+export * from './listar-autor.component'

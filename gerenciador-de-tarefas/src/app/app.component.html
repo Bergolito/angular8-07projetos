@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          {{ title }}
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <ul>
+      <li>
+          <a [routerLink]="['/tarefas']"
+            title="Editar" alt="Editar"> Tarefa
+          </a>
+      </li>    
+    <li>
+        <a [routerLink]="['/autores']"
+          title="Editar" alt="Editar"> Autor
+        </a>
+    </li>
+    <li>
+      <a [routerLink]="['/editoras']"
+        title="Editar" alt="Editar"> Editora
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/livros']"
+      title="Editar" alt="Editar"> Livro
+      </a>
+    </li>
+
+  </ul>
+
+
+  <router-outlet></router-outlet>
+</div>
