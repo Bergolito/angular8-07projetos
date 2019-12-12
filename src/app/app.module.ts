@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './dashboard';
 import { CalculadoraModule } from './calculadora';
-import { ConversorModule } from './conversor';
+//import { ConversorModule } from './conversor';
 import { TarefasModule } from './tarefas';
 import { JogoDaVelhaModule } from './jogo-da-velha';
 
@@ -22,7 +22,7 @@ import { JogoDaVelhaModule } from './jogo-da-velha';
     AppRoutingModule,
     DashboardModule,
     CalculadoraModule,
-    ConversorModule,
+    //ConversorModule,
     TarefasModule,
     JogoDaVelhaModule
   ],
